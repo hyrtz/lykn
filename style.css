@@ -1,0 +1,26 @@
+
+/* .members-pictures {
+    border-radius: 20px;
+    background-color: aqua;
+    display: inline-block;
+} */
+
+
+table, tr, th, td{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+caption {
+    text-align: center;
+    caption-side: top;
+}
+
+thead {
+    background-color: yellow;
+}
+
+footer {
+    font-size: 10px;
+}
