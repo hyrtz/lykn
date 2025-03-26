@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800;900&display=swap');
+
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    /* background-color: black; */
+}
+
+/* navbar */
+nav {
+    width: 100%;
+    top: 0;
+    background-color: black;
+    position: fixed;
+    display: inline-block;
+    text-align: center;
+    padding: 26px;
+}
+
+.nav-menu a {
+    color: #F5F5F7; 
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0px 10px;
+    display: inline-block;
+    position: relative;
+}
+
+/* .nav-menu {
+    padding-left: -40px;
+    padding-right: 96px;
+} */
+
+.nav-menu .listen-to-lykn {
+    color: #000; 
+}
+
+
+.nav-menu a:hover {
+    color: #40A2C8;
+    transition: ease 0.4s; 
+}
+
+.right-logo {
+    display: in;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    padding-left: 10px;
+}
+
+.banner {
+    max-width: 100%;
+    height: 100%;
+    margin-top: 76px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.listen-to-lykn {
+    color: #000;
+    background-color: #F5F5F7;
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 4px 20px 4px 20px;
+    /* position: absolute;
+    display: inline-block; */
+    top: 24px;
+    right: 390px;
+    text-decoration: none;
+}
+
+.listen-to-lykn:hover {
+    color: #fff;
+    background-color: #40A2C8;
+    transition: ease 0.4s; 
+}
+
+
+.nav-menu {
+    /* nakalagay sa right */
+    float: right;
+    
+}
